@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Anony</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<style type="text/css">
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+:root {
+	--color-neumorph: #e0e2ff;
+	--red-aes: #f12711;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+body {
+	background: var(--color-neumorph);
+	font-family: 'Poppins';
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+
+img {width: 100%}
+
+
+
+
+.wrap {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 400px;
+	background: var(--color-neumorph);
+	box-shadow:  5px 5px 10px #c1c2db, 
+             -5px -5px 10px #ffffff;
+}
+
+.head-wrap {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.head-wrap img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.wrap h3 {
+	margin: 130px 0 40px;
+}
+
+.btn {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn a {
+	color: var(--red-aes);
+	background: var(--color-neumorph);
+	position: relative;
+	border: 1px solid var(--red-aes);
+	width: 117px;
+	height: 50px;
+	transition: ease-out 0.3s;
+}
+
+.btn a:hover,
+.btn a.active {
+	background: var(--red-aes);
+	color: #fff;
+	transition: ease-in 0.3s;
+}
+
+.btn a i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="head-wrap">
+			<img src="https://meetanentrepreneur.lu/wp-content/uploads/2019/08/profil-linkedin-300x300.jpg" />
+		</div>
+		<h3>Halo Anonym1314</h3>
+		<div class="listener">
+			<i class="far fa-user-tie"></i>
+			<a href="#">Nnjn</a>
+		</div>
+		<div class="listener">
+			<i class="far fa-user-tie"></i>
+			<a href="#">Nnjn</a>
+		</div>
+		<p><a href="">join with User Account</a></p>
+		<div class="btn">
+			<a href="#" class="active"><i class="far fa-user-tie"></i></a>
+			<a href="#"><i class="far fa-images"></i></a>
+			<a href="#"><i class="far fa-images"></i></a>
+		</div>
+	</div>
+</body>
+</html>

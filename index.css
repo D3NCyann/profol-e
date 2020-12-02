@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+:root {
+	--color-neumorph: #e0e2ff;
+	--red-aes: #f12711;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+body {
+	background: var(--color-neumorph);
+	font-family: 'Poppins';
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+body div.wrap {
+	align-items: center;
+	position: relative;
+	box-shadow: 0 0 5px #fff;
+}
+
+img {width: 100%}
+
+/* box-shadow:  5px 5px 10px #c1c2db, 
+             -5px -5px 10px #ffffff;
+
+             */

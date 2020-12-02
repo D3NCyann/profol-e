@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="REFRESH" content="5;url=sesi1.html" />
+	<title>Join With Us</title>
+<style type="text/css">
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+:root {
+	--color-neumorph: #e0e2ff;
+	--red-aes: #f12711;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+body {
+	background: var(--color-neumorph);
+	font-family: 'Poppins';
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+body div.wrap {
+	width: 500px;
+	align-items: center;
+	position: relative;
+	box-shadow: 0 0 5px #fff;
+}
+
+h2:after {
+	content: '.';
+	animation: anim 2s infinite;
+}
+
+@keyframes anim {
+	0% {
+		content: '.';
+	}
+	50% {
+		content: '..';
+	}
+}
+
+img {width: 100%}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<img src="logo.png" />
+		<h2 align="center">Loading..</h2>
+	</div>
+</body>
+</html>
